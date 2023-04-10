@@ -1,0 +1,9 @@
+{"type":"D","message":"Charlot !!!","heure":"14:19"}
+{"type":"D","message":"Tu connais mon nom maintenant unh","heure":"14:20"}
+{"type":"D","message":"Sinon pourquoi tu es comme \u00e7a ?","heure":"14:20"}
+{"type":"R","message":"Bonjour \ud83e\udd1d ","heure":"14:20"}
+{"type":"R","message":"Je suis comment d\u00e9j\u00e0 ?","heure":"14:21"}
+{"type":"D","message":"Tu es vraiment bizarre Mathias","heure":"16:52"}
+{"type":"R","message":"Ah oui ?","heure":"17:39"}
+{"type":"D","message":"Of course","heure":"17:39"}
+{"type":"D","message":"Rien unh.","heure":"17:43"}

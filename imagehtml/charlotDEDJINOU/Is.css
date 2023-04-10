@@ -1,0 +1,50 @@
+.container
+{
+    width: 500px;
+    height: 300px;
+    border: 1px solid rgba(180, 240, 245, 0.704);
+    box-shadow: 5px 5px 3px rgba(103, 231, 248, 0.704);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10% 30%;
+
+}
+
+.content2
+{
+    width: 60%;
+    background-image: url(OIP.jfif);
+    background-size: cover;
+    background-repeat:round;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.content1
+{
+    width: 40%;
+    height: 300px;
+}
+
+p
+{
+    font-style: italic;
+    font-size: 25px;
+}
+
+.content21
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 128px;
+}
+
+span
+{
+    font-size: 20px;
+}

@@ -1,0 +1,3 @@
+{"type":"D","message":"Bonsoir Fo","heure":"14:23"}
+{"type":"D","message":"Comment vas tu d\u00e9j\u00e0 ?","heure":"14:23"}
+{"type":"R","message":"je vais bien et chez toi boss ?","heure":"22:18"}

@@ -1,0 +1,7 @@
+{"type":"D","message":"Bonjour Grand Fr\u00e8re ","heure":"12:59"}
+{"type":"R","message":"Oui nonvi","heure":"13:39"}
+{"type":"R","message":"Comment vas tu ?","heure":"13:39"}
+{"type":"D","message":"Bien Bien. Et vous fofo ?","heure":"16:53"}
+{"type":"R","message":"\u00e7a va bien oh","heure":"17:03"}
+{"type":"R","message":"Tu as fini le projet ?","heure":"17:03"}
+{"type":"D","message":"OUI oui Fo","heure":"10:11"}

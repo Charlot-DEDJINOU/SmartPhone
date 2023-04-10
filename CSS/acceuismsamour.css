@@ -1,0 +1,56 @@
+.header-body-footer
+{
+    height: 98%;
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../imagehtml/img3.jpg);
+    background-size:cover;
+    background-repeat: round;
+    border-radius: 40px;
+    border: 5px black solid;
+    transition-property: all;
+    transition-delay: 1s;
+    transition-duration: 5s;
+}
+
+.header-body-footer:hover
+{ 
+    height: 98%;
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../imagehtml/bouquet-300-roses-rouges.jpg);
+    background-size:cover;
+    background-repeat: round;
+    border-radius: 40px;
+    border: 5px black solid;
+}
+
+.body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    transition-property: all;
+    transition-delay: 0s;
+    transition-duration: 3s;
+}
+
+.body:hover
+{
+    transform: matrix3d(1,0,1,0,
+    0,1,0,0,
+    0,0,1,0,
+    0,-100,0,1.1
+  );
+    font-style: italic;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+

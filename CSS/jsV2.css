@@ -1,0 +1,17 @@
+.heure-date
+{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heure
+{
+    font-size: 70px;
+    font-weight:100;
+}
+
+
+

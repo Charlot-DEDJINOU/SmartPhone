@@ -1,0 +1,43 @@
+.header-body-footer
+{
+    background-image: none;
+    background-color: white;
+}
+
+.body
+{
+    flex: wrap;
+    overflow-y: scroll;
+}
+
+.bodyvideo video
+{
+    margin-top: 50px;
+    width: 290px;
+    height: 190px;
+    object-fit: contain;
+}
+
+h2
+{
+    margin-bottom: 10px;
+}
+
+.video
+{
+    width: 48%;
+    height: 90px;
+    margin: 0px 2.5px;
+    object-fit: cover;
+}
+
+::-webkit-scrollbar
+{
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: green;
+}
+

@@ -1,0 +1,156 @@
+.header-body-footer
+{
+    background: none;
+    background-color: white;
+}
+
+.body
+{
+     display: flex; 
+     flex-direction: column;
+}
+
+.body .whatsapp-header
+{
+    width: 100%;
+    height: 22%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: green;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.body .whatsapp-header .Whatsapp
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body .whatsapp-header .Whatsapp .icones
+{
+    width: 18%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.body .whatsapp-header .Whatsapp span
+{
+    font-size: 20px;
+}
+
+.body .whatsapp-header .option
+{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+    margin-bottom: -3%;
+}
+
+.body .whatsapp-header .option .actuel
+{
+    border-bottom: 3px solid white;
+}
+
+.body .messages
+{
+    width: 100%;
+    height: 92%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.body .messages span
+{
+  display: inline-block;
+}
+
+.body .messages .message
+{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 40px;
+    margin: 10px 0px;
+    text-decoration: none;
+    color: black;
+}
+
+.body .messages .message img
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.body .messages .message .nom-message
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    height: 100%;
+}
+
+.body .messages .message .nom-message .nom
+{
+    font-weight: bold;
+    overflow: hidden;
+    width: 100%;
+    height: 40%;
+}
+
+.body .messages .message .nom-message .sms
+{
+    opacity: 0.9;
+    font-size: 14px;
+    overflow: hidden;
+    width: 100%;
+    height: 40%;
+}
+
+.body .messages .message .date-number
+{
+    width: 30px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body .messages .message .date-number .number
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.body .messages .message .date-number .date
+{
+    color: green;
+    font-weight: bold;
+}
+
+::-webkit-scrollbar
+{
+    width: 1px;
+}
+
+
+
+

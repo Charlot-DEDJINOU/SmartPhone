@@ -1,0 +1,20 @@
+{"type":"R","message":"Man Comment vas tu ?","heure":"13:00"}
+{"type":"R","message":"Est ce que tu es au cours ?","heure":"13:01"}
+{"type":"D","message":"Ah suis pas all\u00e9 au cours \ud83d\ude12 ","heure":"13:35"}
+{"type":"D","message":"Tu veux quelque chose ?","heure":"13:38"}
+{"type":"R","message":"Pas vraiment Hum","heure":"14:27"}
+{"type":"R","message":"Quoi pour moi ?","heure":"16:59"}
+{"type":"D","message":"Tu veux quoi d\u00e9j\u00e0 ?","heure":"17:00"}
+{"type":"R","message":"Ce que tu as eu ?","heure":"17:01"}
+{"type":"D","message":"Pas compris eu ","heure":"17:01"}
+{"type":"D","message":"Apparemment nous tous on a bu \ud83d\ude12 ","heure":"17:02"}
+{"type":"R","message":"Dis plut\u00f4t que tu as bu unh","heure":"17:02"}
+{"type":"D","message":"En tout cas oh","heure":"17:36"}
+{"type":"R","message":"Quoi ?","heure":"17:36"}
+{"type":"D","message":"Rien oh. Tu sais quoi ?","heure":"17:36"}
+{"type":"R","message":"Non bro. Parle moi ","heure":"17:37"}
+{"type":"R","message":"Je veux rien dire","heure":"22:15"}
+{"type":"D","message":"Bonjour Chef","heure":"09:22"}
+{"type":"D","message":"Comment vas tu ?","heure":"09:23"}
+{"type":"R","message":"Bien Bien","heure":"13:29"}
+{"type":"R","message":"Et la journ\u00e9e ?","heure":"13:29"}

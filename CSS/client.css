@@ -1,0 +1,172 @@
+.header-body-footer
+{
+    background: none;
+    background-image: url(../imagehtml/img3.jpg);
+}
+
+.body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-app
+{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url();
+}
+
+.container-app .span
+{
+    display: inline-block;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    color: rgb(7, 171, 241);
+    font-size: 25px;
+    text-shadow: 1px 1px 3px black;
+}
+
+.container-app .content
+{
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+
+.container-app .content .content1
+{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.container-app .content .content1 a
+{
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 12px;
+  margin: 5px 0px 5px 5px;
+  color: black;
+}
+
+.container-app .content .content2
+{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-app .content .content2 #form1
+{
+    width: 90%;
+}
+
+.container-app .content .content2 #form1 div
+{
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-app .content .content2 #form1 button
+{
+    margin-top: 8px;
+    background-color: rgb(7, 171, 241);
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.container-app .content .content2 #form1 .alert
+{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    vertical-align: center;
+}
+
+.container-app .content .content2 #lister
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.container-app .content .content2 #lister div
+{
+    width: 100%;
+    height: auto;
+    margin: 0px 0px 10px 0px;
+    font-size: 15px;
+    text-align: justify;
+    word-spacing: 1px;
+    padding: 5px 0px;
+    border: 1px solid red;
+}
+
+.container-app .content .content2 #lister div .nom,.container .content .content2 #lister div .reste,.container .content .content2 #lister div .dates
+{
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.success
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+
+.sommer
+{
+    margin-top: 80px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.sommer .prix
+{
+    font-weight: bold;
+}
+
+input[type="text"],input[type="number"]
+{
+    background: none;
+}
+
+input[type="text"]::placeholder,input[type="number"]::placeholder
+{
+    color: gainsboro;
+}
+
+::-webkit-scrollbar
+{
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: gainsboro;
+}

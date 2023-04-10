@@ -1,0 +1,299 @@
+.body
+{
+    width: 100%;
+    height: 78%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body form
+{
+    margin-top: 7px;
+    width: 90%;
+    height: 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px;
+}
+
+.body form input[type="search"]
+{
+   width: 85%;
+   border-bottom-left-radius: 5px;
+   border-top-left-radius: 5px;
+   height: 100%;
+}
+
+.body form input[type="submit"]
+{
+    width: 15%;
+    background-color: black;
+    color: white;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+    height: 100%;
+    font-size: 10px;
+}
+
+.body form input[type="submit"]:hover
+{
+    color: green;
+}
+
+.body-application
+{
+    width: 100%;
+    height: 94%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.body .body-application .application
+{
+    width: 80%;
+    height: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y:scroll ;
+}
+
+::-webkit-scrollbar
+{
+    width: 0px;
+}
+
+.body .body-application .identifiant
+{
+    width: 8%;
+    height: 100;
+}
+
+.body .body-application .lettre
+{
+    width: 3%;
+    height: 100%;
+    font-size: 10px;
+}
+
+.lettre a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.lettre a:hover
+{
+    color: blue;
+}
+
+.body .application .icone
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin:5px 5px;
+}
+
+.body .application .icone a
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3px;
+    width: 35px;
+    height: 35px;
+    filter: brightness(200%);
+    
+}
+
+.bi
+{
+   width: 70%;
+   height: 70%;
+   filter: brightness(200%);
+}
+
+.body .application span
+{
+    display: inline-block;
+    font-size: 10px;
+}
+
+.bi-whatsapp,.bi-telephone
+{
+    color: white;
+}
+
+.whatsapp-couleur
+{
+    background-color: green;
+    border-radius: 20px;
+}
+
+.telephone-couleur
+{
+    border-radius: 10px;
+    background-color: green;
+}
+
+.bi-person-lines-fill,.bi-calculator-fill
+{
+    color: white;
+}
+
+.contact-couleur,.calculatrice-couleur
+{
+    border-radius: 10px;
+    background-color: rgb(244, 80, 15);
+}
+
+.bi-messenger
+{
+    color: rgb(78, 6, 129);
+    opacity: 8px;
+}
+
+.messenger-couleur,.goolge-couleur
+{
+    border-radius: 20px;
+    background-color:white;
+}
+
+.bi-facebook
+{
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.lite-couleur
+{
+    border-radius: 20px;
+    background-color:blue;
+}
+
+
+.bi-file-word-fill
+{
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.word-couleur
+{
+    border-radius: 10px;
+    background-color:red;
+}
+
+.bi-google
+{
+    color: green;
+}
+
+.bi-youtube,.bi-arrow-through-heart-fill
+{
+    color: red;
+}
+
+.youtube-couleur,.sms-couleur
+{
+    
+    border-radius: 10px;
+    background-color: white;
+}
+
+.alarme-couleur,.apple-couleur,.photo-couleur
+{
+    background-color: white ;
+    border-radius: 10px;
+    color: rgb(255, 167, 5);
+}
+
+.jeux-couleur
+{
+    border-radius: 10px;
+    background-color:blue
+}
+
+.bi-controller
+{
+    color: white;
+}
+
+.bi-apple,.bi-camera-fill
+{
+    color: black;
+}
+
+.bi-card-image
+{
+    color: yellow;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.galerie-couleur
+{
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.enregistrement-couleur,.coding-couleur,.parametre-couleur
+{
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+.bi-mic,.bi-music-note-beamed,.bi-gear-fill
+{
+    color: white;
+}
+
+.musique-couleur
+{
+    border-radius: 10px;
+    background-color: rgb(251, 56, 7);
+}
+
+.bi-camera-reels,.bi-cursor-fill,.bi-file-code
+{
+    color: white;
+}
+
+.video-couleur
+{
+    background-color: rgb(231, 4, 4);
+    border-radius: 10px;
+}
+
+.bi-chat-dots-fill
+{
+    color: rgb(9, 174, 239);
+}
+
+.telegram-couleur
+{
+    background-color: rgb(3, 84, 116);
+    border-radius: 10px;
+}
+
+.bi-instagram
+{
+    color: white;
+}
+
+.instagram-couleur
+{
+    background-color: rgb(102, 10, 167);
+    border-radius: 10px;
+}

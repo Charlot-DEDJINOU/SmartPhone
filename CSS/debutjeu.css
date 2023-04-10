@@ -1,0 +1,57 @@
+form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+form input[type="number"]
+{
+   width: 100%;
+   height: 25px;
+   font-size: 15px;
+}
+
+form input[type="submit"],form input[type='button']
+{
+    margin-top: 20px;
+    font-weight: bold;
+    width: 45%;
+}
+
+form >div
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.texte
+{
+    font-size: 25px;
+    margin-top: 25%;
+    color:green;
+}
+
+.jolie
+{
+    color: tomato;
+}
+
+.body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h4
+{
+    width: 80%;
+    text-align: center;
+    font-size: 20px;
+}

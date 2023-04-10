@@ -1,0 +1,177 @@
+.header-body-footer
+{
+    background: none;
+    background-color: white;
+}
+
+.container-app
+{
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.container-app span
+{
+    display: inline-block;
+}
+
+.container-app .content1
+{
+    width: 100%;
+    height: 30%;
+    background-image: url(../imagehtml/img3.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-app .content1 div
+{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 5px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container-app .content1 div button
+{
+    background: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    animation-duration: 1s;
+}
+
+.container-app .content1 .date
+{
+    margin-bottom: 5px;
+    width: 100%;
+    margin-left: 8%;
+    color: white;
+    font-size: 18px;
+}
+
+.container-app .content2
+{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-app .content2 .content2-tache
+{
+    width: 100% ;
+    height: 92%;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.container-app .content2 .content2-tache .tache
+{
+    width: 95%;
+    height: 50px;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.container-app .content2 .content2-tache .tache .nom
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 85%;
+}
+
+.container-app .content2 .content2-tache .tache .nom svg
+{
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid black;
+}
+
+.container-app .content2 .content2-tache .tache .sup
+{
+    width: 10%;
+    background:none;
+    border: none;
+}
+
+.container-app .content2 .content2-tache div input
+{
+    border-radius: 5px;
+}
+
+.container-app .content2 .form
+{
+    width: 100%;
+    height: 15%;
+    border-top:1px solid rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-app .content2 .form button
+{
+    height: 30px;
+    width: 10%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    background-color: rgb(97, 4, 246);
+}
+
+.container-app .content2 .form input
+{
+    width: 85%;
+    height: 20px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+
+.container-app .content2 .form input::placeholder
+{
+    color: rgb(97,4,246);
+    padding: 7px;
+}
+
+::-webkit-scrollbar
+{
+    width: 3px;
+}
+
+@keyframes tourne
+{
+    from{
+        color: green;
+    }to{
+        transform: rotate(360deg);
+        color: white;
+    }
+}

@@ -1,0 +1,3 @@
+{"type":"R","message":"Cc","heure":"14:24"}
+{"type":"R","message":"Chef on est today ?","heure":"14:24"}
+{"type":"D","message":"Pas compris unh","heure":"16:50"}

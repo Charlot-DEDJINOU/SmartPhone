@@ -1,0 +1,29 @@
+form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.niveaux
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+form input[type="submit"]
+{
+    margin-top: 20px;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.texte
+{
+    font-size: 25px;
+    margin-top: 25%;
+    color: red;
+}

@@ -1,0 +1,39 @@
+.header-body-footer
+{
+    background-image: none;
+    background-color: white;
+}
+
+.body
+{
+    flex: wrap;
+    overflow-y: scroll;
+    background-image: none;
+    background-size:cover;
+    background-repeat: round;
+}
+
+h2
+{
+    margin-bottom: 10px;
+}
+
+img
+{
+    width: 68.8px;
+    height: 68.5px;
+    margin: 0px 1.2px;
+    justify-content: flex;
+    object-fit:cover;
+}
+
+::-webkit-scrollbar
+{
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: green;
+}
+

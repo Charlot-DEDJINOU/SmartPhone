@@ -1,0 +1,98 @@
+.header-body-footer
+{
+    background-image: url(../imagehtml/bouquet-300-roses-rouges.jpg);
+    background-size: cover;
+    background-size: round;
+}
+
+.body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.amour,.matinal,.bonnenuit
+{
+    overflow-y:scroll;
+    margin-top: 5px;
+}
+
+.typesms
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.typesms span
+{
+    flex: 1;
+    display: inline-block;
+    width: 30%;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 0px;
+    text-transform: uppercase;
+}
+
+.typesms a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.body .amour .span,.body .bonnenuit .span,.body .matinal .span
+{
+    display: inline-block;
+    margin: 5px 0px;
+    width: 98%;
+    height: auto;
+    font-size: 12px;
+    background-color: white;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.3);
+    text-align: justify;
+    padding: 5px 0px;
+    font-weight: bold;
+    cursor:context-menu;
+}
+
+.body .amour .span:hover
+{
+    font-weight: bold;
+    font-style: italic;
+    color: pink;
+    background-color: black;
+}
+
+.body .matinal .span:hover
+{
+    font-weight: bold;
+    font-style: italic;
+    color: green;
+    background-color: black;
+    filter: brightness(200%);
+}
+
+.body .bonnenuit .span:hover
+{
+    font-weight: bold;
+    font-style: italic;
+    color: yellow;
+    background-color: black;
+}
+
+::-webkit-scrollbar
+{
+    width: 3px ;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color:rgb(13, 232, 229);
+} 

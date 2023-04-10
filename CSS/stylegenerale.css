@@ -1,0 +1,271 @@
+.big-container
+{
+    margin-left: 75px;
+    width: 310px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 40px;
+    background-image: url(../imagehtml/img4.jpg);
+    box-shadow: 0px 0px 3px 5px rgba(0,0,0,0.3) ;
+}
+
+.before-container
+{
+    position: relative;
+    width: 1%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+
+.first
+{
+    height: 1%;
+    background-color: black;
+}
+
+.end
+{
+    height: 1%;
+}
+
+.header-body-footer
+{
+    height: 98%;
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../imagehtml/img3.jpg);
+    background-size:cover;
+    background-repeat: round;
+    border-radius: 40px;
+    border: 5px black solid;
+}
+
+.head
+{
+  width: 90%;
+  height: 4%;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: flex-start;
+  margin-top: -5px;
+}
+
+.date-coin
+{
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.header
+{
+    width:80%;
+    background-color: black;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.after-header
+{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.reseau
+{ 
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.item
+{
+    display: inline-block;
+    background-color: black;
+    width: 3px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.one
+{
+    height: 5px;
+}
+
+.two
+{
+    height: 8px;
+}
+
+.three
+{
+    height: 11px;
+}
+
+.four
+{
+    height: 14px;
+}
+
+.bacterie
+{
+    width: 57%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+   
+}
+.bacterie-interieur
+{
+   width: 52%;
+   border-radius: 2px;
+   height: 6px;
+   display: flex;
+   align-items: center;
+   justify-content: left;
+   border: 1px black solid;
+   background-color: white;
+}
+
+
+.interieur
+{
+    display: inline-block;
+    width: 60%;
+    height: 7px;
+    background-color: black;
+}
+
+.item-bout
+{
+    display: inline-block;
+    width: 9%;
+    height: 5px;
+    background-color: black;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    margin-bottom: 1.5px;
+}
+
+.body
+{
+    width: 100%;
+    height: 78%;
+}
+
+.footer
+{
+    width:100%;
+    height: 10%;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer span
+{
+    font-size: 10px;
+}
+
+.footer-rond
+{
+    display: inline-block;
+    border-radius: 80px;
+    width: 40px;
+    height: 40px;
+    border: 2px black solid;
+    background: none;
+    margin-top: 35px;
+}
+
+.footer-rond:hover
+{
+    border: 1px solid teal;
+}
+
+.header-rond
+{
+    display: inline-block;
+    border-radius: 80px;
+    width: 3px;
+    height: 3px;
+    background-color: white;
+}
+
+.beauty
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.beauty-rond
+{
+    display: inline-block;
+    border-radius: 80px;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(210, 251, 246);
+    opacity: 8px;
+    margin-right: 10px;
+}
+
+.beauty-trait
+{
+    display: inline-block;
+    border-radius: 10px;
+    width: 60px;
+    height: 3px;
+    background-color: white;
+}
+
+.first-trait
+{
+    display: inline-block;
+    background-color: black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 3px;
+    height: 30px;
+    margin: 4px;
+}

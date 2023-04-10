@@ -1,0 +1,9 @@
+{"type":"R","message":"Bonsoir Fiston ","heure":"14:24"}
+{"type":"D","message":"Pas vraiment","heure":"14:25"}
+{"type":"D","message":"*Pourquoi cette question d\u00e9j\u00e0 ?","heure":"14:25"}
+{"type":"R","message":"Juste pour savoir unh","heure":"14:25"}
+{"type":"D","message":"Hum bizarre","heure":"14:26"}
+{"type":"D","message":"Sinon quoi pour moi d\u00e9j\u00e0 ?","heure":"14:26"}
+{"type":"R","message":"Tu veux quoi mon enfant ?","heure":"14:26"}
+{"type":"D","message":"S\u00fbre que tu me donneras tout ?","heure":"16:51"}
+{"type":"R","message":"Oui oui","heure":"17:21"}

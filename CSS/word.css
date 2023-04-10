@@ -1,0 +1,124 @@
+.header-body-footer
+{
+    background: none;
+    background-color: white;
+}
+
+.body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.body .wpsdocs
+{
+    width: 100%;
+    height: 100%;
+}
+
+.body .wpsdocs .wps .icones
+{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.body .wpsdocs .wps span
+{
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.body .wps
+{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: rgb(251, 65, 52);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body .documents
+{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+    height: 80%;
+}
+
+.body .lire-doc
+{
+    width: 100%;
+    height: 100%;
+}
+
+.body .lire-doc object
+{
+    width: 100%;
+    height: 100%;
+}
+
+.word
+{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0px;
+}
+
+.word .bi
+{
+    width: 30px;
+    height: 30px;
+    color: white ;
+}
+
+.title
+{
+    display: inline-block;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: -5px;
+    width: 83%;
+    font-size: 12px;
+    height: 45px;
+    font-weight: bold;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.icone
+{
+    display: inline-block;
+    width: 14%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(251, 65, 52);
+}
+
+a
+{
+    text-decoration: none;
+}
+
+::-webkit-scrollbar
+{
+    width: 3px ;
+}
+
+::-webkit-o
+
+::-webkit-scrollbar-thumb
+{
+    background-color:rgb(13, 232, 229);
+}
+

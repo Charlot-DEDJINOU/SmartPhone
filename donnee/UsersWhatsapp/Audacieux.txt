@@ -1,0 +1,6 @@
+{"type":"R","message":"Petit Fr\u00e8re Comment vas tu ?","heure":"14:13"}
+{"type":"D","message":"Bien Bien fo","heure":"16:53"}
+{"type":"D","message":"Et toi d\u00e9j\u00e0 ?","heure":"16:53"}
+{"type":"R","message":"Je vais bien","heure":"16:58"}
+{"type":"R","message":"Et les \u00e9tudes ?","heure":"16:59"}
+{"type":"D","message":"nous sommes en train \ud83d\udee4 et de ton cot\u00e9 ?","heure":"22:20"}
