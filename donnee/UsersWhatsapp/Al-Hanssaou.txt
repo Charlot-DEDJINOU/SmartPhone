@@ -1,3 +1,4 @@
 {"type":"D","message":"Bonjour Cheffe. Comment vas tu ?","heure":"14:11"}
 {"type":"R","message":"je vais tr\u00e8s bien mon ch\u00e9ri et chez toi ?","heure":"22:16"}
 {"type":"D","message":"Bonjour","heure":"11:27"}
+{"type":"R","message":"Bonjour \ud83e\udd1d mon amour \ud83d\ude0d ","heure":"18:46"}

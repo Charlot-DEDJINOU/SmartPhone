@@ -45,7 +45,7 @@
                 if(requete.readyState === 4)
                     {
                         if(requete.status === 200 || requete.status == 0)
-                           console.log(requete.responseText) ;                    }
+                           alert(requete.responseText) ;                    }
             }
                 requete.send(null);
 
@@ -68,7 +68,7 @@
     $id=$_GET['id'] ;
     try
         {
-        $bd = new PDO('mysql:host=localhost;dbname=gestion', 'CHARLOT', 'Motdepasse@2003',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+        $bd = new PDO('mysql:host=localhost;dbname=gestion', 'root', 'Charlot1xbet@2003',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
         }
     catch (Exception $e)
         {

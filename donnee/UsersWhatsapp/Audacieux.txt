@@ -4,3 +4,4 @@
 {"type":"R","message":"Je vais bien","heure":"16:58"}
 {"type":"R","message":"Et les \u00e9tudes ?","heure":"16:59"}
 {"type":"D","message":"nous sommes en train \ud83d\udee4 et de ton cot\u00e9 ?","heure":"22:20"}
+{"type":"R","message":"Bonsoir","heure":"18:40"}

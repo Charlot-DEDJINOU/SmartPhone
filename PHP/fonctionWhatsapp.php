@@ -8,7 +8,7 @@
 
             try
             {
-                $bd = new PDO('mysql:host=localhost;dbname=gestion', 'CHARLOT', 'Motdepasse@2003',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+                $bd = new PDO('mysql:host=localhost;dbname=gestion', 'root', 'Charlot1xbet@2003',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
             }
             catch (Exception $e)
             {
@@ -17,7 +17,7 @@
 
             $bd->exec("UPDATE userswhatsapp SET heure_dernier_message='$heure' WHERE id=$id") ;
             $bd->exec("UPDATE userswhatsapp SET dernier_message='$message' WHERE id=$id") ;
-            $bd->exec("UPDATE userswhatsapp SET `date`=NOW() WHERE id=$id") ;
+            $bd->exec("UPDATE userswhatsapp SET `date_dernier_message`=NOW() WHERE id=$id") ;
 
             $data=json_encode(
                 [
@@ -34,15 +34,15 @@
 
             if($type == 'D')
                 {
-                    $bd->exec("UPDATE userswhatsapp SET nombres_message=0 WHERE id=$id ") ;
+                    $bd->exec("UPDATE userswhatsapp SET nombre_message=0 WHERE id=$id ") ;
                     $bd->exec("UPDATE userswhatsapp SET dernier_message_est_moi=1 WHERE id=$id ") ;
                 }
             else
                 {
-                    $ancien_nombres_message = $bd->query("SELECT nombres_message FROM userswhatsapp WHERE id=$id") ;
-                    $ancien_nombres_message=$ancien_nombres_message->fetch()['nombres_message'] + 1 ;
+                    $ancien_nombres_message = $bd->query("SELECT nombre_message FROM userswhatsapp WHERE id=$id") ;
+                    $ancien_nombres_message=$ancien_nombres_message->fetch()['nombre_message'] + 1 ;
 
-                    $bd->exec("UPDATE userswhatsapp SET nombres_message=$ancien_nombres_message WHERE id=$id") ;
+                    $bd->exec("UPDATE userswhatsapp SET nombre_message=$ancien_nombres_message WHERE id=$id") ;
                     $bd->exec("UPDATE userswhatsapp SET dernier_message_est_moi=0 WHERE id=$id ") ;
                 }
         }

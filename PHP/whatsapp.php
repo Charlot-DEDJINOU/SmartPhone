@@ -59,13 +59,13 @@
                <?php 
                     try
                         {
-                        $bd = new PDO('mysql:host=localhost;dbname=gestion', 'CHARLOT', 'Motdepasse@2003',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+                        $bd = new PDO('mysql:host=localhost;dbname=gestion', 'root', 'Charlot1xbet@2003',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
                         }
                     catch (Exception $e)
                         {
                         die('Erreur : ' . $e->getMessage());
                         } 
-                        $datas=$bd->query("SELECT * FROM usersWhatsapp ORDER BY `date` DESC ") ;
+                        $datas=$bd->query("SELECT * FROM usersWhatsapp ORDER BY `date_dernier_message` DESC ") ;
                         foreach ($datas as $data)
                         { 
                             if ($data['dernier_message_est_moi'])
@@ -92,7 +92,7 @@
                                 </div>
                                 <div class='date-number'>
                                     <span class='date'>$data[heure_dernier_message]</span>
-                                    <span class='number'>$data[nombres_message]</span>
+                                    <span class='number'>$data[nombre_message]</span>
                                 </div>
                                 </a>" ;
                             }
