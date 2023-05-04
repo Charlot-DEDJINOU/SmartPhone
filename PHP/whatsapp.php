@@ -9,7 +9,7 @@
     <title>Entrainement</title>
     <script type="text/javascript"></script>
 </head>
-<body onload="Initelement();">
+<body>
  <div class="big-container">
         <div class="before-container">
             <span class="first-trait"></span>
