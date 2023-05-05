@@ -3,7 +3,7 @@
    {
     try
         {
-        $bd = new PDO('mysql:host=localhost;dbname=gestion', 'CHARLOT', 'Motdepasse@2003',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+        $bd = new PDO('mysql:host=localhost;dbname=gestion', 'root', 'Charlot1xbet@2003',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
         }
     catch (Exception $e)
         {
@@ -30,7 +30,7 @@
    function lister() {
     try
         {
-        $bd = new PDO('mysql:host=localhost;dbname=gestion', 'CHARLOT', 'Motdepasse@2003',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+            $bd = new PDO('mysql:host=localhost;dbname=gestion', 'root', 'Charlot1xbet@2003',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
         }
     catch (Exception $e)
         {
@@ -46,7 +46,7 @@
    {
     try
         {
-        $bd = new PDO('mysql:host=localhost;dbname=gestion', 'CHARLOT', 'Motdepasse@2003',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+            $bd = new PDO('mysql:host=localhost;dbname=gestion', 'root', 'Charlot1xbet@2003',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
         }
     catch (Exception $e)
         {
@@ -74,7 +74,7 @@
    {
     try
         {
-        $bd = new PDO('mysql:host=localhost;dbname=gestion', 'CHARLOT', 'Motdepasse@2003',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+            $bd = new PDO('mysql:host=localhost;dbname=gestion', 'root', 'Charlot1xbet@2003',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
         }
     catch (Exception $e)
         {
@@ -110,7 +110,7 @@
    {
     try
         {
-        $bd = new PDO('mysql:host=localhost;dbname=gestion', 'CHARLOT', 'Motdepasse@2003',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+            $bd = new PDO('mysql:host=localhost;dbname=gestion', 'root', 'Charlot1xbet@2003',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
         }
     catch (Exception $e)
         {
